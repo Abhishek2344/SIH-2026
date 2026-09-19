@@ -33,7 +33,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({ setActiveTab }) => {
         </div>
 
         <h1 className="text-4xl sm:text-6xl font-black text-slate-900 tracking-tight max-w-4xl mx-auto leading-none">
-          ANNADATA SETU
+          smart-Mandi
           <span className="block text-2xl sm:text-3xl font-extrabold text-[#133e66] mt-2 font-serif">
             Transparent Procurement. Smarter Markets. Empowered Farmers.
           </span>

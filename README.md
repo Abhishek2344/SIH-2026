@@ -1,4 +1,4 @@
-# ANNADATA SETU (अन्नदाता सेतु)
+# smart-Mandi (स्मार्ट मंडी)
 ### Transparent Procurement & Commodity Intelligence Platform
 **Developed for the Ministry of Consumer Affairs, Food & Public Distribution (Government of India)**  
 *Smart India Hackathon (SIH 2026) Prototype Demonstration*
@@ -13,7 +13,7 @@ Farmers across India often face debilitating bottlenecks at agricultural procure
 
 Simultaneously, government authorities and the **Department of Consumer Affairs (DoCA)** require early market intelligence to detect supply deficits, farm-to-retail price spread anomalies, and storage imbalances before retail inflation strikes consumer households.
 
-**ANNADATA SETU** bridges these gaps by establishing a trusted, end-to-end digital chain connecting:
+**smart-Mandi** bridges these gaps by establishing a trusted, end-to-end digital chain connecting:
 1. **Farmers** (Crop declarations, bay slot reservations, live queue tokens, and digital vouchers)
 2. **Procurement Centres** (Daily yard capacity management, electronic weighbridge integration, and assaying)
 3. **Verified Commercial Buyers/Vendors** (Privacy-shielded macro district stock visibility and contract interests)
@@ -103,7 +103,7 @@ VITE_SUPABASE_ANON_KEY=your-anon-key-here
 
 # Mode Configuration
 VITE_ENABLE_MOCK_FALLBACK=true
-VITE_PORTAL_NAME=ANNADATA SETU
+VITE_PORTAL_NAME=smart-Mandi
 VITE_PORTAL_SUBTITLE=Transparent Procurement & Commodity Intelligence Platform
 VITE_PORTAL_AUTHORITY=Ministry of Consumer Affairs, Food & Public Distribution
 ```

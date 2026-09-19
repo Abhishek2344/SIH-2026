@@ -35,7 +35,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onSuccess, setActiveTab })
   const [otpCode, setOtpCode] = useState('');
   const [otpSent, setOtpSent] = useState(false);
   const [otpCountdown, setOtpCountdown] = useState(30);
-  const [emailInput, setEmailInput] = useState('ramesh.farmer@annadatasetu.gov.in');
+  const [emailInput, setEmailInput] = useState('ramesh.farmer@smartmandi.gov.in');
   const [passwordInput, setPasswordInput] = useState('password123');
   const [isLoading, setIsLoading] = useState(false);
   const [authError, setAuthError] = useState<string | null>(null);
@@ -129,9 +129,9 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onSuccess, setActiveTab })
         {/* Header Ribbon */}
         <div className="bg-gradient-to-r from-[#0b2238] to-[#133e66] text-white p-8 text-center relative">
           <div className="inline-block w-12 h-12 rounded-xl bg-slate-900 border border-slate-700 flex items-center justify-center font-bold text-lg text-amber-400 mb-2">
-            अ•से
+            स्•मं
           </div>
-          <h2 className="text-2xl font-black tracking-tight">Welcome to Annadata Setu</h2>
+          <h2 className="text-2xl font-black tracking-tight">Welcome to smart-Mandi</h2>
           <p className="text-xs text-slate-300 mt-1">
             Ministry of Consumer Affairs, Food & Public Distribution
           </p>

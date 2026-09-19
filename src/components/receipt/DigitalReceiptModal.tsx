@@ -62,10 +62,10 @@ export const DigitalReceiptModal: React.FC<DigitalReceiptModalProps> = ({
           {/* Header */}
           <div className="text-center border-b border-slate-200 pb-5">
             <div className="inline-block w-12 h-12 rounded-xl bg-[#0b2238] text-white flex items-center justify-center font-bold text-lg mb-2 shadow">
-              अ•से
+              स्•मं
             </div>
             <h2 className="text-xl font-extrabold text-slate-900 tracking-tight">
-              ANNADATA SETU
+              smart-Mandi
             </h2>
             <p className="text-xs font-semibold text-slate-600 uppercase tracking-wider mt-0.5">
               Ministry of Consumer Affairs, Food & Public Distribution

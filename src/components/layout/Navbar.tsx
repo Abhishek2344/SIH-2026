@@ -140,7 +140,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
               <div className="absolute inset-x-0 top-0 h-1 bg-amber-500"></div>
               <div className="absolute inset-x-0 bottom-0 h-1 bg-green-600"></div>
               <div className="text-center">
-                <span className="text-sm font-bold tracking-tight">अ•से</span>
+                <span className="text-sm font-bold tracking-tight">स्•मं</span>
                 <div className="w-4 h-0.5 bg-amber-400 mx-auto mt-0.5"></div>
               </div>
             </div>
@@ -148,7 +148,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab }) => {
             <div>
               <div className="flex items-center space-x-2">
                 <h1 className="text-lg font-black tracking-tight text-slate-900 leading-tight">
-                  ANNADATA SETU
+                  smart-Mandi
                 </h1>
                 <span className="text-[10px] uppercase font-bold tracking-wider px-1.5 py-0.5 rounded bg-blue-50 text-blue-800 border border-blue-200">
                   DoCA • GOI

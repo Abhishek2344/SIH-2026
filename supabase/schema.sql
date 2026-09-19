@@ -1,5 +1,5 @@
 -- ==============================================================================
--- ANNADATA SETU — Transparent Procurement & Commodity Intelligence Platform
+-- smart-Mandi — Transparent Procurement & Commodity Intelligence Platform
 -- Ministry of Consumer Affairs, Food & Public Distribution (Government of India)
 -- Full PostgreSQL / Supabase Schema Definition
 -- ==============================================================================

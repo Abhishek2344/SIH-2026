@@ -127,7 +127,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
   // Local storage initialization for persistent prototype demo
   const loadInitial = <T,>(key: string, fallback: T): T => {
     try {
-      const saved = localStorage.getItem(`annadata_${key}`);
+      const saved = localStorage.getItem(`smartmandi_${key}`) || localStorage.getItem(`annadata_${key}`);
       return saved ? JSON.parse(saved) : fallback;
     } catch {
       return fallback;
@@ -173,19 +173,19 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   // Sync state to local storage
   useEffect(() => {
-    localStorage.setItem('annadata_currentUser', JSON.stringify(currentUser));
+    localStorage.setItem('smartmandi_currentUser', JSON.stringify(currentUser));
   }, [currentUser]);
 
   useEffect(() => {
-    localStorage.setItem('annadata_stocks', JSON.stringify(stocks));
-    localStorage.setItem('annadata_slots', JSON.stringify(slots));
-    localStorage.setItem('annadata_bookings', JSON.stringify(bookings));
-    localStorage.setItem('annadata_tokens', JSON.stringify(tokens));
-    localStorage.setItem('annadata_transactions', JSON.stringify(transactions));
-    localStorage.setItem('annadata_alerts', JSON.stringify(alerts));
-    localStorage.setItem('annadata_complaints', JSON.stringify(complaints));
-    localStorage.setItem('annadata_auditLogs', JSON.stringify(auditLogs));
-    localStorage.setItem('annadata_notifications', JSON.stringify(notifications));
+    localStorage.setItem('smartmandi_stocks', JSON.stringify(stocks));
+    localStorage.setItem('smartmandi_slots', JSON.stringify(slots));
+    localStorage.setItem('smartmandi_bookings', JSON.stringify(bookings));
+    localStorage.setItem('smartmandi_tokens', JSON.stringify(tokens));
+    localStorage.setItem('smartmandi_transactions', JSON.stringify(transactions));
+    localStorage.setItem('smartmandi_alerts', JSON.stringify(alerts));
+    localStorage.setItem('smartmandi_complaints', JSON.stringify(complaints));
+    localStorage.setItem('smartmandi_auditLogs', JSON.stringify(auditLogs));
+    localStorage.setItem('smartmandi_notifications', JSON.stringify(notifications));
   }, [stocks, slots, bookings, tokens, transactions, alerts, complaints, auditLogs, notifications]);
 
   // Derived current farmer or vendor
@@ -243,7 +243,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
       role,
       fullName: `${role.toUpperCase().replace('_', ' ')} Officer`,
       mobileNumber: '+91 98000 00000',
-      email: `${role}@annadatasetu.gov.in`,
+      email: `${role}@smartmandi.gov.in`,
       state: 'Rajasthan',
       district: 'Jaipur',
       createdAt: new Date().toISOString(),

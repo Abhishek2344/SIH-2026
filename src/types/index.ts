@@ -1,5 +1,5 @@
 // ==============================================================================
-// ANNADATA SETU — TypeScript Type Definitions
+// smart-Mandi — TypeScript Type Definitions
 // ==============================================================================
 
 export type UserRole =

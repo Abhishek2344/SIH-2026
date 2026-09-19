@@ -37,10 +37,10 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
           <div className="space-y-3">
             <div className="flex items-center space-x-2">
               <div className="w-7 h-7 rounded bg-blue-700 flex items-center justify-center text-white font-bold text-xs">
-                अ•से
+                स्•मं
               </div>
               <span className="text-white font-bold text-sm tracking-wide">
-                ANNADATA SETU
+                smart-Mandi
               </span>
             </div>
             <p className="text-slate-400 text-[11px] leading-relaxed">
@@ -129,7 +129,7 @@ export const Footer: React.FC<FooterProps> = ({ setActiveTab }) => {
 
         {/* Bottom copyright line */}
         <div className="mt-8 pt-6 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-[11px] text-slate-400 gap-2">
-          <p>© 2026 Annadata Setu Project Prototype. Prepared for Smart India Hackathon (SIH).</p>
+          <p>© 2026 smart-Mandi Project Prototype. Prepared for Smart India Hackathon (SIH).</p>
           <p className="text-slate-400">
             Designed for Desktop & Mobile • Dual Engine (Supabase + Instant Demo)
           </p>

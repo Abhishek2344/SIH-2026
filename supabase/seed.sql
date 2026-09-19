@@ -1,5 +1,5 @@
 -- ==============================================================================
--- ANNADATA SETU — Realistic Indian Demo Seed Data
+-- smart-Mandi — Realistic Indian Demo Seed Data
 -- ==============================================================================
 
 -- 1. CROPS CATALOG

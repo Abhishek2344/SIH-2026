@@ -23,7 +23,7 @@ export const TechnologyPage: React.FC = () => {
           Technology Stack & Architectural Specifications
         </h1>
         <p className="text-sm text-slate-600 max-w-2xl mx-auto leading-relaxed">
-          Technical design specifications of the Annadata Setu prototype built for the Ministry of Consumer Affairs, Food & Public Distribution.
+          Technical design specifications of the smart-Mandi prototype built for the Ministry of Consumer Affairs, Food & Public Distribution.
         </p>
       </div>
 
